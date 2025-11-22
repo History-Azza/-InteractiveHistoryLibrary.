@@ -2,10 +2,93 @@
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
-<title>Interactive History Library</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>المكتبة التفاعلية التاريخية | Interactive History Library</title>
+<style>
+  body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f7f7f7; color:#333; }
+  header { background:#004aad; color:white; padding:20px; text-align:center; }
+  header h1 { margin:0; font-size:2em; }
+  header p { margin:5px 0 0 0; font-size:1em; }
+  nav { background:#0b5ed7; display:flex; justify-content:center; }
+  nav a { color:white; text-decoration:none; padding:15px 25px; display:block; font-weight:bold; }
+  nav a:hover { background:#063b85; }
+  section { padding:30px; max-width:1000px; margin:auto; }
+  section h2 { color:#004aad; margin-bottom:15px; }
+  .cards { display:flex; flex-wrap:wrap; gap:20px; }
+  .card { background:white; padding:20px; flex:1 1 250px; box-shadow:0 2px 5px rgba(0,0,0,0.1); border-radius:10px; }
+  .card h3 { margin-top:0; }
+  footer { text-align:center; padding:15px; background:#004aad; color:white; }
+</style>
 </head>
 <body>
-<h1>المكتبة التفاعلية جاهزة</h1>
-<p>تم تشغيل الموقع بنجاح.</p>
+
+<header>
+  <h1>المكتبة التفاعلية التاريخية</h1>
+  <p>Interactive History Library for sighted and visually impaired students</p>
+</header>
+
+<nav>
+  <a href="#books">الكتب | Books</a>
+  <a href="#videos">الفيديوهات | Videos</a>
+  <a href="#models">نماذج 3D | 3D Models</a>
+  <a href="#audio">شروحات صوتية | Audio</a>
+</nav>
+
+<section id="books">
+  <h2>الكتب | Books</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>حضارات العالم القديم</h3>
+      <p>كتب تفاعلية عن الحضارات القديمة قبل الإسلام.</p>
+    </div>
+    <div class="card">
+      <h3>تاريخ الدولة الإسلامية</h3>
+      <p>كتب تعليمية مع محتوى مبسط للطلاب.</p>
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <h2>الفيديوهات | Videos</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>محاضرة الحضارات القديمة</h3>
+      <p>فيديو قصير مع شرح مبسط للمفاهيم التاريخية.</p>
+    </div>
+    <div class="card">
+      <h3>دروس الدولة الإسلامية</h3>
+      <p>فيديوهات تعليمية مع محتوى صوتي واضح.</p>
+    </div>
+  </div>
+</section>
+
+<section id="models">
+  <h2>نماذج ثلاثية الأبعاد | 3D Models</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>مجسمات حضارات</h3>
+      <p>نماذج 3D تفاعلية للمعابد والمدن القديمة.</p>
+    </div>
+    <div class="card">
+      <h3>نماذج الدولة الإسلامية</h3>
+      <p>مجسمات تعليمية للتاريخ الإسلامي.</p>
+    </div>
+  </div>
+</section>
+
+<section id="audio">
+  <h2>شروحات صوتية | Audio</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>دروس صوتية للطلاب المبصرين والكفيفين</h3>
+      <p>شرح صوتي كامل لكل فصل دراسي ومحتوى تعليمي.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 Interactive History Library | المكتبة التفاعلية التاريخية
+</footer>
+
 </body>
 </html>
